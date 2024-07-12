@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.card{
+  background-color: cornflowerblue;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+.card-ctr{
+  padding: 2px 20px;
+  margin-top: 20px;
+  color: #fff;
+}
+
+input{
+  width: 60%;
+  padding: 10px 4px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.submit-btn{
+  background-color: #fff;
+  color:cornflowerblue;
+  border:none;
+  padding: 10px 6px;
+  border-radius: 12px;
+  font-size:17px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav p{
+  cursor: default;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: 16px;
+}
+
+.logo{
+  color: cornflowerblue;
+  font-size: 30px;
+}
+
+.loading-msg{
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+  max-width: 20px 0;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.err-msg{
+  color: red;
+}
+
+svg{
+  cursor: pointer;
+}
+
+.intro{
+  text-align: center;
+  color: cornflowerblue;
+}
+.intro h2{
+  margin-top: 30px;
+}
